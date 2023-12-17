@@ -1,1 +1,79 @@
+#header {
+    background-image:url("https://img.freepik.com/premium-photo/purple-leaves-background_45024-1209.jpg");
+    color: blanchedalmond;
+}
+.head {
+    background-image:url('https://img.freepik.com/premium-photo/purple-tropical-foliage-nature-background_45024-1122.jpg');
+    color: blanchedalmond;
+}
+.lol {
+    color: blanchedalmond;
+}
+.newspaper {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-align: center;
+    animation: neonGlow 1s ease-in-out infinite alternate;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px solid rgb(129, 194, 238);
+  }
+.sol {
+    width: 400px;
+    height: 300px;
+}
+
+.neon-text {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-align: center;
+    animation: neonGlow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes neonGlow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 55px #00f, 0 0 75px #00f;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f0f, 0 0 40px #f0f, 0 0 50px #f0f, 0 0 70px #f0f, 0 0 100px #f0f;
+    }
+  }
+
+  .info-square {
+    transition: transform 0.5s;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .info-square:hover {
+    transform: scale(0.9);
+  }
+  
+  #my-pie-chart-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #my-pie-chart {
+    background: conic-gradient(orange 22.90% 40.79%, red 0.79%);
+    border-radius: 50%;
+      width: 750px;
+      height: 150px;
+  }
+  
+  #legenda {
+    margin-left: 20px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+  }
+  
+  .entry {
+    display: flex;
+    align-items: center;
+  }
+  
+  .entry-color {
+      height: 10px;
+      width: 10px;
+  }
+   
 
